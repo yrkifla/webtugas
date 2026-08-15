@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio Alfikry</title>
+  <title>Portofolio | Alfikry Anhas</title>
   <script src="https://unpkg.com/feather-icons"></script>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -16,7 +16,7 @@
 
     <div class="logo">
       <div class="user"><img src="logo.jpg" alt="logo"></div>
-      <div class="logo"><span>Porto</span>folio</div>
+      <div class="logo"><span>Alfikry</span>Anhas</div>
 
     </div>
 
@@ -25,13 +25,17 @@
       <li><a href="#">Beranda</a></li>
       <li><a href="#about">Tentang</a></li>
       <li><a href="#kontak">Kontak</a></li>
-      
+      <li><a href="#pendidikan">R. Pendidikan</a></li>
+      <li><a href="#project">Project</a></li>
+
     </ul>
-    
+
     <ul class="nav-links">
       <li><a href="#" class="active">Beranda</a></li>
       <li><a href="#about">Tentang</a></li>
       <li><a href="#kontak">Kontak</a></li>
+      <li><a href="#pendidikan">R. Pendidikan</a></li>
+      <li><a href="#project">Project</a></li>
       <li onclick=showSidebar()><span><i data-feather="menu"></i></span></li>
     </ul>
   </nav>
@@ -39,7 +43,7 @@
   <!-- Konten Dummy -->
   <section class="main-content">
     <div class="content">
-      <h1>Hi, Saya <span>ELANHAS</span> </h1>
+      <h1>Hallo! Saya<span> Alfikry Anhas 👋</span> </h1>
       <p>Seorang pelajar yang <br>sedang mempelajari Program Web <br>Html, CSS & Js</p>
       <div class="button-about">
         <a href="#about" class="btn">Tentang Saya</a>
@@ -49,25 +53,126 @@
 
   </section>
 
+  <!--info-->
+
+  <section id="info" class="info">
+    <div class="info-me"><a href="#pendidikan" class="link-info">
+        <div class="item">
+          <div class="icon">
+            <i data-feather="book"></i>
+          </div>
+          <div class="info-title">
+            <h2>Riwayat Pendidikan</h2>
+          </div>
+          <div class="info-link">
+            <i data-feather="chevron-right"></i>
+          </div>
+        </div>
+      </a>
+      <a href="#project" class="link-info">
+        <div class="item">
+          <div class="icon">
+            <i data-feather="check-circle"></i>
+          </div>
+          <div class="info-title">
+            <h2>Project Saya</h2>
+          </div>
+          <div class="info-link">
+            <i data-feather="chevron-right"></i>
+          </div>
+        </div>
+      </a>
+    </div>
+
+  </section>
+
+  <!--tentang-->
+
   <section id="about" class="about">
     <div class="content">
       <h2>Tentang Saya</h2>
       <p>Saya seorang pelajar SMK yang sedang mengembangkan kemampuan dalam Programing Web terutama Html, CSS & Js.
         Saya mempelajari Programing Web dari pelajaran sekolah dan juga belajar dari video youtube.
-      Saya sangat ingin untuk bisa paham dan bisa mengaplikasikan Program Html, CSS & Js agar bisa menjadi seorang Programer Web sejati</p>
+        Saya sangat ingin untuk bisa paham dan bisa mengaplikasikan Program Html, CSS & Js agar bisa menjadi seorang
+        Programer Web sejati</p>
     </div>
   </section>
+
+  <!--Riwayat pendidikan-->
+
+  <section id="pendidikan" class="pendidikan">
+    <div class="content">
+      <h2>Riwayat Pendidikan</h2>
+      <h4>Pernah dan sedang belajar pada program dibawah</h4>
+      <ul class="list-pen">
+        <li class="item"><a href="https://sekolahanak.com/sekolah/sd-negeri-2-sukajaya/"><img src="img/sd.png"
+              alt="sd-negeri-2-sukajaya"></a></li>
+        <li class="item"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/20217393"><img
+              src="img/smp.png" alt="smp1sukatani"></a></li>
+        <li class="item"><a href="https://smkn1sukatanipwk.sch.id/"><img src="img/nesu.png" alt="smkn1sukatanipwk"></a>
+        </li>
+        <li class="item"><a href="https://www.instagram.com/class.xii.rpl.2?igsh=Zzh6YTMydnBocWwx"><img
+              src="img/rpl.png" alt="ig rpl 2"></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!--project-->
+
+  <section id="project" class="project">
+    <div class="project-head">
+      <h2>Project</h2>
+    </div>
+    <div class="project-main">
+
+      <div class="project-item">
+        <div class="project-items">
+          <img src="img/porto.jpg" alt="Portofolio">
+          <div class="project-text">
+            <div class="project-title">
+              <h2>Portofolio</h2>
+            </div>
+            <div class="project-info">
+              <p>Website Portofolio Alfikry Anhas 2026, lebih berfokus pada melatih Css untuk Html.</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="arrow"><a href="#" class="to-project"><i data-feather="chevron-right"></i></a></div>
+      </div>
+      <div class="project-item">
+        <div class="project-items">
+          <img src="img/perpus.jpg" alt="PerpusNesu">
+          <div class="project-text">
+            <div class="project-title">
+              <h2>PerpusNesu</h2>
+            </div>
+            <div class="project-info">
+              <p>Saya pernah membuat Website Perpustakaan Sekolah Online dengan sistem angka pembaca realtime, ini
+                adalah salah satu tugas sekolah saya.</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="arrow"><a href="https://yrkifla.github.io/PerpusNesu/#" class="to-project"><i
+              data-feather="chevron-right"></i></a></div>
+      </div>
+    </div>
+  </section>
+
+  <!--kontak-->
 
   <section id="kontak" class="kontak">
     <div class="content">
       <h2>Kontak</h2>
       <h1 class="contact-title">Hubungi Saya</h1>
       <div class="icon-sosial">
-        <a href="https://www.instagram.com/el_alfikry?igsh=ZGZiNDRiNmx2dTVs" class="link-sos"><i data-feather="instagram"></i></a>
-        <a href="#" class="link-sos"><i data-feather="facebook"></i></a>
+        <a href="https://www.instagram.com/el_alfikry?igsh=ZGZiNDRiNmx2dTVs" class="link-sos"><i
+            data-feather="instagram"></i></a>
+        <a href="www.facebook.com" class="link-sos"><i data-feather="facebook"></i></a>
         <a href="mailto:elgames2706@gmail.com" class="link-sos"><i data-feather="mail"></i></a>
         <a href="https://wa.me/6283135395818?text=Halooo" class="link-sos"><i data-feather="phone"></i></a>
-        <a href="#" class="link-sos"><i data-feather="twitter"></i></a>
+        <a href="www.twiter.com" class="link-sos"><i data-feather="twitter"></i></a>
       </div>
     </div>
   </section>
